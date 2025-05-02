@@ -17,12 +17,31 @@ import resume from './assets/Ajit_Pal_Formatted_CV.pdf';
 
 const Portfolio = () => {
   return (
-    <Container maxWidth="md" sx={{ py: 4 }}>
+    <Container
+      maxWidth="md"
+      sx={{
+        py: 4,
+        backgroundColor: "#f9f9f9",
+        borderRadius: 2,
+        boxShadow: 3,
+      }}
+    >
       <Box sx={{ textAlign: "center", mb: 6 }}>
-        <Typography variant="h3" component="h1" gutterBottom>
+        <Typography
+          variant="h3"
+          component="h1"
+          gutterBottom
+          sx={{ fontWeight: "bold", letterSpacing: 2, color: "#333" }}
+        >
           AJIT PAL
         </Typography>
-        <Typography variant="h5" component="p" gutterBottom color="text.secondary">
+        <Typography
+          variant="h5"
+          component="p"
+          gutterBottom
+          color="text.secondary"
+          sx={{ mb: 2 }}
+        >
           Full Stack Developer
         </Typography>
         <Box sx={{ display: "flex", justifyContent: "center", gap: 2, mt: 2 }}>
@@ -51,10 +70,15 @@ const Portfolio = () => {
 
       <Grid container spacing={4}>
         <Grid item xs={12}>
-          <Typography variant="h4" component="h2" gutterBottom>
+          <Typography
+            variant="h4"
+            component="h2"
+            gutterBottom
+            sx={{ borderBottom: "2px solid #1976d2", display: "inline-block", pb: 1 }}
+          >
             Summary
           </Typography>
-          <Card elevation={3}>
+          <Card elevation={3} sx={{ transition: "0.3s", "&:hover": { transform: "scale(1.02)" } }}>
             <CardContent>
               <Typography variant="body1" color="text.secondary">
                 Highly motivated Full-Stack Developer with 3+ years of experience
@@ -68,10 +92,15 @@ const Portfolio = () => {
         </Grid>
 
         <Grid item xs={12}>
-          <Typography variant="h4" component="h2" gutterBottom>
+          <Typography
+            variant="h4"
+            component="h2"
+            gutterBottom
+            sx={{ borderBottom: "2px solid #1976d2", display: "inline-block", pb: 1 }}
+          >
             Technical Skills
           </Typography>
-          <Card elevation={3}>
+          <Card elevation={3} sx={{ transition: "0.3s", "&:hover": { transform: "scale(1.02)" } }}>
             <CardContent>
               <List>
                 <ListItem>
@@ -116,12 +145,17 @@ const Portfolio = () => {
         </Grid>
 
         <Grid item xs={12}>
-          <Typography variant="h4" component="h2" gutterBottom>
+          <Typography
+            variant="h4"
+            component="h2"
+            gutterBottom
+            sx={{ borderBottom: "2px solid #1976d2", display: "inline-block", pb: 1 }}
+          >
             Experience
           </Typography>
           <Grid container spacing={2}>
             <Grid item xs={12} md={6}>
-              <Card elevation={3}>
+              <Card elevation={3} sx={{ transition: "0.3s", "&:hover": { transform: "scale(1.02)" } }}>
                 <CardContent>
                   <Typography variant="h6" component="h3" gutterBottom>
                     Full Stack Developer
@@ -164,7 +198,7 @@ const Portfolio = () => {
               </Card>
             </Grid>
             <Grid item xs={12} md={6}>
-              <Card elevation={3}>
+              <Card elevation={3} sx={{ transition: "0.3s", "&:hover": { transform: "scale(1.02)" } }}>
                 <CardContent>
                   <Typography variant="h6" component="h3" gutterBottom>
                     Full Stack Developer
@@ -192,18 +226,21 @@ const Portfolio = () => {
                 </CardContent>
               </Card>
             </Grid>
-            {/* Add more experience cards as needed */}
           </Grid>
         </Grid>
 
-        {/* Projects Section */}
         <Grid item xs={12}>
-          <Typography variant="h4" component="h2" gutterBottom>
+          <Typography
+            variant="h4"
+            component="h2"
+            gutterBottom
+            sx={{ borderBottom: "2px solid #1976d2", display: "inline-block", pb: 1 }}
+          >
             Projects
           </Typography>
           <Grid container spacing={2}>
             <Grid item xs={12} md={4}>
-              <Card elevation={3}>
+              <Card elevation={3} sx={{ transition: "0.3s", "&:hover": { transform: "scale(1.02)" } }}>
                 <CardContent>
                   <Typography variant="h6" component="h3" gutterBottom>
                     To Ride: Bike Rental Application
@@ -223,7 +260,7 @@ const Portfolio = () => {
                   <Button
                     variant="outlined"
                     color="primary"
-                    href="https://github.com/ajitpal254/Ride-Sharing-Application"
+                    href="https://github.com/ajitpal254/3AmShoppeeReact"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -232,16 +269,19 @@ const Portfolio = () => {
                 </CardContent>
               </Card>
             </Grid>
-            {/* Add more project cards as needed */}
           </Grid>
         </Grid>
 
-        {/* Education Section */}
         <Grid item xs={12}>
-          <Typography variant="h4" component="h2" gutterBottom>
+          <Typography
+            variant="h4"
+            component="h2"
+            gutterBottom
+            sx={{ borderBottom: "2px solid #1976d2", display: "inline-block", pb: 1 }}
+          >
             Education
           </Typography>
-          <Card elevation={3}>
+          <Card elevation={3} sx={{ transition: "0.3s", "&:hover": { transform: "scale(1.02)" } }}>
             <CardContent>
               <List>
                 <ListItem>
@@ -261,12 +301,16 @@ const Portfolio = () => {
           </Card>
         </Grid>
 
-        {/* Achievements Section */}
         <Grid item xs={12}>
-          <Typography variant="h4" component="h2" gutterBottom>
+          <Typography
+            variant="h4"
+            component="h2"
+            gutterBottom
+            sx={{ borderBottom: "2px solid #1976d2", display: "inline-block", pb: 1 }}
+          >
             Achievements
           </Typography>
-          <Card elevation={3}>
+          <Card elevation={3} sx={{ transition: "0.3s", "&:hover": { transform: "scale(1.02)" } }}>
             <CardContent>
               <List>
                 <ListItem>
@@ -284,14 +328,13 @@ const Portfolio = () => {
           </Card>
         </Grid>
 
-        {/* Resume Download Section */}
-                <Grid item xs={12} sx={{ textAlign: "center" }}>
-                  <a href={resume} download>
-                    <Button variant="contained" color="primary">
-                      Download Resume
-                    </Button>
-                  </a>
-                </Grid>
+        <Grid item xs={12} sx={{ textAlign: "center", mt: 4 }}>
+          <a href={resume} download style={{ textDecoration: "none" }}>
+            <Button variant="contained" color="primary">
+              Download Resume
+            </Button>
+          </a>
+        </Grid>
       </Grid>
     </Container>
   );
