@@ -11,7 +11,7 @@ import Typography from "@mui/material/Typography";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import ListItemText from "@mui/material/ListItemText";
-import resume from './assets/Ajit_Pal_Resume.docx'
+import resume from './assets/Ajit_Pal_Formatted_CV.pdf';
 
 // Import Link for downloading the resume
 
