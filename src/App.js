@@ -13,7 +13,7 @@ import {
 } from "@mui/material";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import resume from "./assets/AJIT PAL - Master.pdf";
+import resume from "./assets/Ajit Pal - Master.pdf";
 
 // ...all your imports stay the same
 
