@@ -13,7 +13,7 @@ import {
 } from "@mui/material";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import resume from "./assets/AJIT PAL - Full Stack Developer.pdf";
+import resume from "./assets/AJIT PAL - Master.pdf";
 
 // ...all your imports stay the same
 
@@ -100,12 +100,14 @@ const Portfolio = () => {
           <Card elevation={3} sx={cardHover}>
             <CardContent>
               <Typography variant="body1" color="text.secondary">
-                Highly motivated Full-Stack Developer with 3+ years of
-                experience designing, developing, and implementing innovative
-                software solutions. Proven ability to collaborate effectively in
-                agile environments to deliver high-quality projects on time and
-                within budget. Expertise in e-commerce platforms, retail
-                applications, and financial systems.
+                Highly accomplished Full Stack Developer with over 4 years of professional experience
+                (excluding freelance/independent projects) in designing, developing, and deploying scalable,
+                secure, and high-performance applications across the e-commerce, retail, and finance
+                sectors. Proven expertise in Java, Spring Boot, Node.js, React, and Angular, with a strong
+                command of Agile methodologies, Microservices architecture, RESTful API development, and
+                cloud-native architectures using AWS. Adept at optimizing performance, leading technical
+                initiatives, and collaborating cross-functionally to deliver high-impact features and robust
+                Capital Markets and E-commerce Platforms.
               </Typography>
             </CardContent>
           </Card>
