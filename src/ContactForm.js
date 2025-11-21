@@ -22,9 +22,8 @@ const ContactForm = () => {
         e.preventDefault();
         setStatus('sending');
 
-        // Using Formspree (free form backend service)
         try {
-            const response = await fetch('https://formspree.io/f/YOUR_FORM_ID', {
+            const response = await fetch('https://formspree.io/f/xpwnwgaz', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
